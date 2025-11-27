@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+
+#p5 {
+  width: 860;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#button {
+  position: fixed;
+  bottom: 5vh;
+  left: 85%;
+  padding: 3px 10px;
+  background: rgba(17, 17, 17, 0.8);
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+  border-radius: 6px;
+  backdrop-filter: blur(4px);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+
+#button:hover {
+  background: rgba(0, 255, 255, 1);
+}
+
+
+.p5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* align-self: */
+
+}
+
+
+.title {
+  color: rgb(136, 220, 220);
+  text-align: left;
+  padding-bottom: 10vh;
+}
+
+#title {
+  text-align: right;
+  color: rgb(111, 111, 111);
+  padding-right: 1vh;
+}
+
+#intro {
+  align-items: flex-start;
+  padding-left: 1vh;
+}
