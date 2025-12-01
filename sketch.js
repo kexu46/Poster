@@ -21,6 +21,12 @@ function setup() {
   });
 }
 
+function windowResized() {
+  let w = (windowHeight * 9) / 16;
+  resizeCanvas(w, windowHeight);
+}
+
+
 function draw() {
   background(0, 90); // snow trails
 
